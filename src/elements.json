@@ -1,0 +1,13 @@
+[
+    {
+        "number": 1,
+        "name": "Hydrogen",
+        "symbol": "H"
+    },
+    
+    {
+        "number": 2,
+        "name": "Helium",
+        "symbol": "He"
+    }
+]
