@@ -2,708 +2,916 @@
     {
         "number": 1,
         "name": "Hydrogen",
-        "symbol": "H"
+        "symbol": "H",
+        "group": 1,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 2,
         "name": "Helium",
-        "symbol": "He"
+        "symbol": "He",
+        "group": 18,
+        "properties": "Noble gases"
     },
     
     {
         "number": 3,
         "name": "Lithium",
-        "symbol": "Li"
+        "symbol": "Li",
+        "group": 1,
+        "properties": "Alkali metals"
     },
     
     {
         "number": 4,
         "name": "Beryllium",
-        "symbol": "Be"
+        "symbol": "Be",
+        "group": 2,
+        "properties": "Alkaline earth metals"
     },
     
     {
         "number": 5,
-        "name": "Bor",
-        "symbol": "B"
+        "name": "Boron",
+        "symbol": "B",
+        "group": 13,
+        "properties": "Metalloids"
     },
     
     {
         "number": 6,
         "name": "Carbon",
-        "symbol": "C"
+        "symbol": "C",
+        "group": 14,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 7,
         "name": "Nitrogen",
-        "symbol": "N"
+        "symbol": "N",
+        "group": 15,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 8,
         "name": "Oxygen",
-        "symbol": "O"
+        "symbol": "O",
+        "group": 16,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 9,
         "name": "Fluorine",
-        "symbol": "F"
+        "symbol": "F",
+        "group": 17,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 10,
         "name": "Neon",
-        "symbol": "N"
+        "symbol": "N",
+        "group": 18,
+        "properties": "Noble gases"
     },
     
     {
         "number": 11,
         "name": "Sodium",
-        "symbol": "Na"
+        "symbol": "Na",
+        "group": 1,
+        "properties": "Alkali metals"
     },
     
     {
         "number": 12,
         "name": "Magnesium",
-        "symbol": "Mg"
+        "symbol": "Mg",
+        "group": 2,
+        "properties": "Alkaline earth metals"
     },
     
     {
         "number": 13,
         "name": "Aluminium",
-        "symbol": "Al"
+        "symbol": "Al",
+        "group": 13,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 14,
         "name": "Silicon",
-        "symbol": "Si"
+        "symbol": "Si",
+        "group": 14,
+        "properties": "Metalloids"
     },
     
     {
         "number": 15,
         "name": "Phosphorus",
-        "symbol": "P"
+        "symbol": "P",
+        "group": 15,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 16,
         "name": "Sulfure",
-        "symbol": "S"
+        "symbol": "S",
+        "group": 16,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 17,
         "name": "Chlorine",
-        "symbol": "Cl"
+        "symbol": "Cl",
+        "group": 17,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 18,
         "name": "Argon",
-        "symbol": "Ar"
+        "symbol": "Ar",
+        "group": 18,
+        "properties": "Noble gases"
     },
     
     {
         "number": 19,
         "name": "Potassium",
-        "symbol": "K"
+        "symbol": "K",
+        "group": 1,
+        "properties": "Alkali metals"
     },
     
     {
         "number": 20,
         "name": "Calcium",
-        "symbol": "Ca"
+        "symbol": "Ca",
+        "group": 2,
+        "properties": "Alkaline earth metals"
     },
     
     {
         "number": 21,
         "name": "Scandium",
-        "symbol": "Sc"
+        "symbol": "Sc",
+        "group": 3,
+        "properties": "Transition metals"
     },
     
     {
         "number": 22,
         "name": "Titanium",
-        "symbol": "Ti"
+        "symbol": "Ti",
+        "group": 4,
+        "properties": "Transition metals"
     },
     
     {
         "number": 23,
         "name": "Vanadium",
-        "symbol": "V"
+        "symbol": "V",
+        "group": 5,
+        "properties": "Transition metals"
     },
     
     {
         "number": 24,
         "name": "Chromium",
-        "symbol": "Cr"
+        "symbol": "Cr",
+        "group": 6,
+        "properties": "Transition metals"
     },
     
     {
         "number": 25,
         "name": "Manganese",
-        "symbol": "Mn"
+        "symbol": "Mn",
+        "group": 7,
+        "properties": "Transition metals"
     },
     
     {
         "number": 26,
         "name": "Iron",
-        "symbol": "Fe"
+        "symbol": "Fe",
+        "group": 8,
+        "properties": "Transition metals"
     },
     
     {
         "number": 27,
         "name": "Cobalt",
-        "symbol": "Co"
+        "symbol": "Co",
+        "group": 9,
+        "properties": "Transition metals"
     },
     
     {
         "number": 28,
         "name": "Nickel",
-        "symbol": "Ni"
+        "symbol": "Ni",
+        "group": 10,
+        "properties": "Transition metals"
     },
     
     {
         "number": 29,
         "name": "Copper",
-        "symbol": "Cu"
+        "symbol": "Cu",
+        "group": 11,
+        "properties": "Transition metals"
     },
     
     {
         "number": 30,
         "name": "Zinc",
-        "symbol": "Zn"
+        "symbol": "Zn",
+        "group": 12,
+        "properties": "Transition metals"
     },
     
     {
         "number": 31,
         "name": "Gallium",
-        "symbol": "Ga"
+        "symbol": "Ga",
+        "group": 13,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 32,
         "name": "Germanium",
-        "symbol": "Ge"
+        "symbol": "Ge",
+        "group": 14,
+        "properties": "Metalloids"
     },
     
     {
         "number": 33,
         "name": "Arsenic",
-        "symbol": "As"
+        "symbol": "As",
+        "group": 15,
+        "properties": "Metalloids"
     },
     
     {
         "number": 34,
         "name": "Selenium",
-        "symbol": "Se"
+        "symbol": "Se",
+        "group": 16,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 35,
         "name": "Bromine",
-        "symbol": "Br"
+        "symbol": "Br",
+        "group": 17,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 36,
         "name": "Krypton",
-        "symbol": "Kr"
+        "symbol": "Kr",
+        "group": 18,
+        "properties": "Noble gases"
     },
     
     {
         "number": 37,
         "name": "Rubidium",
-        "symbol": "Rb"
+        "symbol": "Rb",
+        "group": 1,
+        "properties": "Alkali metals"
     },
     
     {
         "number": 38,
         "name": "Strontium",
-        "symbol": "Sr"
+        "symbol": "Sr",
+        "group": 2,
+        "properties": "Alkaline earth metals"
     },
     
     {
         "number": 39,
         "name": "Yttrium",
-        "symbol": "Y"
+        "symbol": "Y",
+        "group": 3,
+        "properties": "Transition metals"
     },
     
     {
         "number": 40,
         "name": "Zirconium",
-        "symbol": "Zr"
+        "symbol": "Zr",
+        "group": 4,
+        "properties": "Transition metals"
     },
     
     {
         "number": 41,
         "name": "Niobium",
-        "symbol": "Nb"
+        "symbol": "Nb",
+        "group": 5,
+        "properties": "Transition metals"
     },
     
     {
         "number": 42,
         "name": "Molybdenum",
-        "symbol": "Mo"
+        "symbol": "Mo",
+        "group": 6,
+        "properties": "Transition metals"
     },
     
     {
         "number": 43,
         "name": "Technetium",
-        "symbol": "Tc"
+        "symbol": "Tc",
+        "group": 7,
+        "properties": "Transition metals"
     },
     
     {
         "number": 44,
         "name": "Ruthenium",
-        "symbol": "Ru"
+        "symbol": "Ru",
+        "group": 8,
+        "properties": "Transition metals"
     },
     
     {
         "number": 45,
         "name": "Rhodium",
-        "symbol": "Rh"
+        "symbol": "Rh",
+        "group": 9,
+        "properties": "Transition metals"
     },
     
     {
         "number": 46,
         "name": "Palladium",
-        "symbol": "Pd"
+        "symbol": "Pd",
+        "group": 10,
+        "properties": "Transition metals"
     },
     
     {
         "number": 47,
         "name": "Silver",
-        "symbol": "Ag"
+        "symbol": "Ag",
+        "group": 11,
+        "properties": "Transition metals"
     },
     
     {
         "number": 48,
         "name": "Cadmium",
-        "symbol": "Cd"
+        "symbol": "Cd",
+        "group": 12,
+        "properties": "Transition metals"
     },
     
     {
         "number": 49,
         "name": "Indium",
-        "symbol": "In"
+        "symbol": "In",
+        "group": 13,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 50,
         "name": "Tin",
-        "symbol": "Sn"
+        "symbol": "Sn",
+        "group": 14,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 51,
         "name": "Antimony",
-        "symbol": "Sb"
+        "symbol": "Sb",
+        "group": 15,
+        "properties": "Metalloids"
     },
     
     {
         "number": 52,
         "name": "Tellurium",
-        "symbol": "Te"
+        "symbol": "Te",
+        "group": 16,
+        "properties": "Metalloids"
     },
     
     {
         "number": 53,
         "name": "Iodine",
-        "symbol": "I"
+        "symbol": "I",
+        "group": 17,
+        "properties": "Other nonmetals"
     },
     
     {
         "number": 54,
         "name": "Xenon",
-        "symbol": "Xe"
+        "symbol": "Xe",
+        "group": 18,
+        "properties": "Noble gases"
     },
     
     {
         "number": 55,
         "name": "Caesium",
-        "symbol": "Cs"
+        "symbol": "Cs",
+        "group": 1,
+        "properties": "Alkali metals"
     },
     
     {
         "number": 56,
         "name": "Barium",
-        "symbol": "Ba"
+        "symbol": "Ba",
+        "group": 2,
+        "properties": "Alkaline earth metals"
     },
     
     {
         "number": 57,
         "name": "Lanthanum",
-        "symbol": "La"
+        "symbol": "La",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 58,
         "name": "Cerium",
-        "symbol": "Ce"
+        "symbol": "Ce",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 59,
         "name": "Praseodym",
-        "symbol": "Pr"
+        "symbol": "Pr",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 60,
         "name": "Neodymium",
-        "symbol": "Nd"
+        "symbol": "Nd",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 61,
         "name": "Promethium",
-        "symbol": "Pm"
+        "symbol": "Pm",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 62,
         "name": "Samarium",
-        "symbol": "Sm"
+        "symbol": "Sm",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 63,
         "name": "Europium",
-        "symbol": "Eu"
+        "symbol": "Eu",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 64,
         "name": "Gadolinium",
-        "symbol": "Gd"
+        "symbol": "Gd",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 65,
         "name": "Terbium",
-        "symbol": "Tb"
+        "symbol": "Tb",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 66,
         "name": "Dysprosium",
-        "symbol": "Dy"
+        "symbol": "Dy",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 67,
         "name": "Holmium",
-        "symbol": "Ho"
+        "symbol": "Ho",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 68,
         "name": "Erbium",
-        "symbol": "Er"
+        "symbol": "Er",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 69,
         "name": "Thulium",
-        "symbol": "Tm"
+        "symbol": "Tm",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 70,
         "name": "Ytterbium",
-        "symbol": "Yb"
+        "symbol": "Yb",
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 71,
         "name": "Lutetium",
-        "symbol": "Lu"
+        "symbol": "Lu",
+        "group": 3,
+        "properties": "Lanthanoids"
     },
     
     {
         "number": 72,
         "name": "Hafnium",
-        "symbol": "Hf"
+        "symbol": "Hf",
+        "group": 4,
+        "properties": "Transition metals"
     },
     
     {
         "number": 73,
         "name": "Tantalum",
-        "symbol": "Ta"
+        "symbol": "Ta",
+        "group": 5,
+        "properties": "Transition metals"
     },
     
     {
         "number": 74,
         "name": "Tungsten",
-        "symbol": "W"
+        "symbol": "W",
+        "group": 6,
+        "properties": "Transition metals"
     },
     
     {
         "number": 75,
         "name": "Rhenium",
-        "symbol": "Re"
+        "symbol": "Re",
+        "group": 7,
+        "properties": "Transition metals"
     },
     
     {
         "number": 76,
         "name": "Osmium",
-        "symbol": "Os"
+        "symbol": "Os",
+        "group": 8,
+        "properties": "Transition metals"
     },
     
     {
         "number": 77,
         "name": "Iridium",
-        "symbol": "Ir"
+        "symbol": "Ir",
+        "group": 9,
+        "properties": "Transition metals"
     },
     
     {
         "number": 78,
         "name": "Platinum",
-        "symbol": "Pt"
+        "symbol": "Pt",
+        "group": 10,
+        "properties": "Transition metals"
     },
     
     {
         "number": 79,
         "name": "Gold",
-        "symbol": "Au"
+        "symbol": "Au",
+        "group": 11,
+        "properties": "Transition metals"
     },
     
     {
         "number": 80,
         "name": "Mercury",
-        "symbol": "Hg"
+        "symbol": "Hg",
+        "group": 12,
+        "properties": "Transition metals"
     },
     
     {
         "number": 81,
         "name": "Thallium",
-        "symbol": "Tl"
+        "symbol": "Tl",
+        "group": 13,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 82,
         "name": "Lead",
-        "symbol": "Pb"
+        "symbol": "Pb",
+        "group": 14,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 83,
         "name": "Bismuth",
-        "symbol": "Bi"
+        "symbol": "Bi",
+        "group": 15,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 84,
         "name": "Polonium",
-        "symbol": "Po"
+        "symbol": "Po",
+        "group": 16,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 85,
         "name": "Astatine",
-        "symbol": "At"
+        "symbol": "At",
+        "group": 17,
+        "properties": "Metalloids"
     },
     
     {
         "number": 86,
         "name": "Radon",
-        "symbol": "Rn"
+        "symbol": "Rn",
+        "group": 18,
+        "properties": "Noble gases"
     },
     
     {
         "number": 87,
         "name": "Francium",
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "group": 1,
+        "properties": "Alkali metals"
     },
     
     {
         "number": 88,
         "name": "Radium",
-        "symbol": "Ra"
+        "symbol": "Ra",
+        "group": 2,
+        "properties": "Alkaline earth metals"
     },
     
     {
         "number": 89,
         "name": "Actinium",
-        "symbol": "Ac"
+        "symbol": "Ac",
+        "properties": "Actinoids"
     },
     
     {
         "number": 90,
         "name": "Thorium",
-        "symbol": "Th"
+        "symbol": "Th",
+        "properties": "Actinoids"
     },
     
     {
         "number": 91,
         "name": "Protactinium",
-        "symbol": "Pa"
+        "symbol": "Pa",
+        "properties": "Actinoids"
     },
     
     {
         "number": 92,
         "name": "Uranium",
-        "symbol": "U"
+        "symbol": "U",
+        "properties": "Actinoids"
     },
     
     {
         "number": 93,
         "name": "Neptunium",
-        "symbol": "Np"
+        "symbol": "Np",
+        "properties": "Actinoids"
     },
     
     {
         "number": 94,
         "name": "Plutonium",
-        "symbol": "Pu"
+        "symbol": "Pu",
+        "properties": "Actinoids"
     },
     
     {
         "number": 95,
         "name": "Americum",
-        "symbol": "Am"
+        "symbol": "Am",
+        "properties": "Actinoids"
     },
     
     {
         "number": 96,
         "name": "Curium",
-        "symbol": "Cm"
+        "symbol": "Cm",
+        "properties": "Actinoids"
     },
     
     {
         "number": 97,
         "name": "Berkelium",
-        "symbol": "Bk"
+        "symbol": "Bk",
+        "properties": "Actinoids"
     },
     
     {
         "number": 98,
         "name": "Californium",
-        "symbol": "Cf"
+        "symbol": "Cf",
+        "properties": "Actinoids"
     },
     
     {
         "number": 99,
         "name": "Einsteinium",
-        "symbol": "Es"
+        "symbol": "Es",
+        "properties": "Actinoids"
     },
     
     {
         "number": 100,
         "name": "Fermium",
-        "symbol": "Fm"
+        "symbol": "Fm",
+        "properties": "Actinoids"
     },
     
     {
         "number": 101,
         "name": "Mendelevium",
-        "symbol": "Md"
+        "symbol": "Md",
+        "properties": "Actinoids"
     },
     
     {
         "number": 102,
         "name": "Nobelium",
-        "symbol": "No"
+        "symbol": "No",
+        "properties": "Actinoids"
     },
     
     {
         "number": 103,
         "name": "Lawrencium",
-        "symbol": "Lr"
+        "symbol": "Lr",
+        "group": 3,
+        "properties": "Actinoids"
     },
     
     {
         "number": 104,
         "name": "Rutherfordium",
-        "symbol": "Rf"
+        "symbol": "Rf",
+        "group": 4,
+        "properties": "Transition metals"
     },
     
     {
         "number": 105,
         "name": "Dubnium",
-        "symbol": "Db"
+        "symbol": "Db",
+        "group": 5,
+        "properties": "Transition metals"
     },
     
     {
         "number": 106,
         "name": "Seaborgium",
-        "symbol": "Sg"
+        "symbol": "Sg",
+        "group": 6,
+        "properties": "Transition metals"
     },
     
     {
         "number": 107,
         "name": "Bohrium",
-        "symbol": "Bh"
+        "symbol": "Bh",
+        "group": 7,
+        "properties": "Transition metals"
     },
     
     {
         "number": 108,
         "name": "Hassium",
-        "symbol": "Hs"
+        "symbol": "Hs",
+        "group": 8,
+        "properties": "Transition metals"
     },
     
     {
         "number": 109,
         "name": "Meitnerium",
-        "symbol": "Mt"
+        "symbol": "Mt",
+        "group": 9,
+        "properties": "Unknown"
     },
     
     {
         "number": 110,
         "name": "Darmstadtium",
-        "symbol": "Ds"
+        "symbol": "Ds",
+        "group": 10,
+        "properties": "Unknown"
     },
     
     {
         "number": 111,
         "name": "Roentgenium",
-        "symbol": "Rg"
+        "symbol": "Rg",
+        "group": 11,
+        "properties": "Unknown"
     },
     
     {
         "number": 112,
         "name": "Copernicum",
-        "symbol": "Cn"
+        "symbol": "Cn",
+        "group": 12,
+        "properties": "Transition metals"
     },
     
     {
         "number": 113,
         "name": "Nihonium",
-        "symbol": "Nh"
+        "symbol": "Nh",
+        "group": 13,
+        "properties": "Unknown"
     },
     
     {
         "number": 114,
         "name": "Flerovium",
-        "symbol": "Fl"
+        "symbol": "Fl",
+        "group": 14,
+        "properties": "Post-transition metals"
     },
     
     {
         "number": 115,
         "name": "Moscovium",
-        "symbol": "Mc"
+        "symbol": "Mc",
+        "group": 15,
+        "properties": "Unknown"
     },
     
     {
         "number": 116,
         "name": "Livermorium",
-        "symbol": "Lv"
+        "symbol": "Lv",
+        "group": 16,
+        "properties": "Unknown"
     },
     
     {
         "number": 117,
         "name": "Tennessine",
-        "symbol": "Ts"
+        "symbol": "Ts",
+        "group": 17,
+        "properties": "Unknown"
     },
     
     {
         "number": 118,
         "name": "Oganesson",
-        "symbol": "Og"
+        "symbol": "Og",
+        "group": 18,
+        "properties": "Unknown"
     }
 ]
