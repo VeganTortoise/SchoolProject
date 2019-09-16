@@ -4,4 +4,4 @@ LBS4 Salzburg
 
 Interactive Periodic Table of Elements
 
-lol
+LoL - Lucifer our Lord
