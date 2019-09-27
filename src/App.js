@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Spin />
       <h1>Periodic Table of Elements</h1>
-      <Element />
+      <PeriodicTable />
     </div>
   );
 }
