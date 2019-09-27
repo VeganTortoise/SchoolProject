@@ -1,12 +1,12 @@
 import React from "react";
-import Element from "./Element";
+import PeriodicTable from "./PeriodicTable";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <h1>Periodic Table of Elements</h1>
-      <Element />
+      <PeriodicTable />
     </div>
   );
 }
