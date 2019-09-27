@@ -1,5 +1,5 @@
 import React from "react";
-import Element from "./Element";
+import PeriodicTable from "./PeriodicTable";
 import firebase from "firebase";
 import { Spin } from "antd";
 
