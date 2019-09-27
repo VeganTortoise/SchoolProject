@@ -5,10 +5,22 @@
 
 .name {
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .symbol {
   text-align: center;
   font-size: 20px;
+}
+
+.Element {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+
+  padding: 2px;
+  border: 1px solid #333333;
+  border-collapse: collapse;
+  overflow: hidden;
+  font-size: 35pt;
 }
