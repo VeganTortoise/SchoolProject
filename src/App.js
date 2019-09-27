@@ -1,14 +1,12 @@
 import React from "react";
 import PeriodicTable from "./PeriodicTable";
 import firebase from "firebase";
-import { Spin } from "antd";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Spin />
       <h1>Periodic Table of Elements</h1>
       <PeriodicTable />
     </div>
