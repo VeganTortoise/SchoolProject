@@ -26,14 +26,4 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 console.log(firebase);
 
-var database = firebase.firestore();
-database
-  .collection("PeriodicTableOfElements")
-  .get()
-  .then(snapshot => {
-    snapshot.docs.forEach(doc => {
-      console.log(doc.data());
-    });
-  });
-
 export default App;
