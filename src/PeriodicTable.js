@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Element from "./Element";
-import "./PeriodicTable.css";
 import firebase from "firebase";
+import Element from "./Element";
+import { Spin } from "antd";
+import "./PeriodicTable.css";
 
 export class PeriodicTable extends Component {
   state = {
@@ -24,7 +25,9 @@ export class PeriodicTable extends Component {
 
   // The periodic table is being rendered
   render() {
-    return (
+    return this.state.elements.length === 0 ? (
+      <Spin size="large" />
+    ) : (
       <div className="PeriodicTable">
         {this.state.elements.map((e, i) => (
           //the Elements are filled with the values form the database

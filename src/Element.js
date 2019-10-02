@@ -3,8 +3,44 @@ import "./Element.css";
 
 export class Element extends React.Component {
   render() {
+    let color;
+    switch (this.props.properties) {
+      case "Other nonmetals":
+        color = "green";
+        break;
+      case "Noble gases":
+        color = "gold";
+        break;
+      case "Alkali metals":
+        color = "DeepPink";
+        break;
+      case "Alkaline earth metals":
+        color = "MediumVioletRed";
+        break;
+      case "Metalloids":
+        color = "Pink";
+        break;
+      case "Post-transition metals":
+        color = "Magenta";
+        break;
+      case "Transition metals":
+        color = "Lavender";
+        break;
+      case "Lanthanoids":
+        color = "RoyalBlue";
+        break;
+      case "Actinoids":
+        color = "Aqua";
+        break;
+      case "Unknown":
+        color = "LightSlateGray";
+        break;
+
+      default:
+        break;
+    }
     return (
-      <div className="Element">
+      <div className="Element" style={{ backgroundColor: color }}>
         <div className="number">{this.props.number}</div>
         <div className="symbol">{this.props.symbol}</div>
         <div className="name">{this.props.name}</div>
