@@ -5,9 +5,9 @@ export class Element extends React.Component {
   render() {
     return (
       <div className="Element">
-        <div className="number">90</div>
-        <div className="symbol">H</div>
-        <div className="name">Hydrogen</div>
+        <div className="number">{this.props.number}</div>
+        <div className="symbol">{this.props.symbol}</div>
+        <div className="name">{this.props.name}</div>
       </div>
     );
   }

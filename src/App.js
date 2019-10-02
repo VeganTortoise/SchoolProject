@@ -12,6 +12,7 @@ function App() {
     </div>
   );
 }
+//the connection to the database is set up
 var firebaseConfig = {
   apiKey: "AIzaSyCn1FfRT6qVBWwkmVj6L-R351WSFX0sq6g",
   authDomain: "periodictable-af684.firebaseapp.com",

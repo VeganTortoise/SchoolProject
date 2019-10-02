@@ -4,36 +4,41 @@ import "./PeriodicTable.css";
 import firebase from "firebase";
 
 export class PeriodicTable extends Component {
-  render() {
-    const n = 118; // Or something else
-    let elements = [];
-    var database = firebase.firestore();
+  state = {
+    elements: []
+  };
+
+  componentDidMount() {
+    let database = firebase.firestore();
+
+    // the data from the database is being read and filled in an array
     database
       .collection("PeriodicTableOfElements")
       .orderBy("id")
       .get()
       .then(snapshot => {
-        snapshot.docs.forEach(doc => {
-          console.log(doc.data());
-          elements.push(doc.data());
-        });
+        const tmp = snapshot.docs.map(doc => doc.data());
+        this.setState({ elements: tmp });
       });
-    console.log("THIS IS THE ARRAY ELEMENTS");
-    console.log(elements);
+  }
+
+  // The periodic table is being rendered
+  render() {
     return (
       <div className="PeriodicTable">
-        {[...Array(n)].map((e, i) => {
-          //console.log(i);
-          database
-            .collection("PeriodicTableOfElements")
-            .orderBy("id")
-            .get();
-          return (
-            <div className={`element-${i}`}>
-              <Element />
-            </div>
-          );
-        })}
+        {this.state.elements.map((e, i) => (
+          //the Elements are filled with the values form the database
+          <div className={`element-${i}`}>
+            <Element
+              number={i + 1}
+              symbol={this.state.elements[i].symbol}
+              name={this.state.elements[i].name}
+              properties={this.state.elements[i].properties}
+              group={this.state.elements[i].group}
+              weight={this.state.elements[i].weight}
+            />
+          </div>
+        ))}
       </div>
     );
   }
