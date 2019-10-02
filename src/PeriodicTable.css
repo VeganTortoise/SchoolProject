@@ -1,4 +1,5 @@
 .PeriodicTable {
+  padding: 3rem;
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
   grid-template-rows: repeat(10);
