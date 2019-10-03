@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Element from "./Element";
-import "./PeriodicTable.css";
 import firebase from "firebase";
+import Element from "./Element";
+import { Spin } from "antd";
+import "./PeriodicTable.css";
 
 /**
  * The Periodic Table creates and consists of all the Elements
@@ -43,7 +44,9 @@ export class PeriodicTable extends Component {
    * @return creates the Periodic Table
    */
   render() {
-    return (
+    return this.state.elements.length === 0 ? (
+      <Spin size="large" />
+    ) : (
       <div className="PeriodicTable">
         {this.state.elements.map((e, i) => (
           /** */

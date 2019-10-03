@@ -24,3 +24,6 @@
   overflow: hidden;
   font-size: 35pt;
 }
+.Element:hover {
+  border: 3px solid #300003;
+}
