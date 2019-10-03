@@ -1,7 +1,18 @@
 import React from "react";
 import "./Element.css";
+import Infobox from "./Infobox.js";
 
 export class Element extends React.Component {
+  state = {
+    showModal: false
+  };
+
+  setShowModal = () => {
+    this.setState(state => ({
+      showModal: !state.showModal
+    }));
+  };
+
   render() {
     let color;
     switch (this.props.properties) {
@@ -40,11 +51,27 @@ export class Element extends React.Component {
         break;
     }
     return (
-      <div className="Element" style={{ backgroundColor: color }}>
-        <div className="number">{this.props.number}</div>
-        <div className="symbol">{this.props.symbol}</div>
-        <div className="name">{this.props.name}</div>
-      </div>
+      <>
+        <div
+          className="Element"
+          style={{ backgroundColor: color }}
+          onClick={this.setShowModal}
+        >
+          <div className="number">{this.props.number}</div>
+          <div className="symbol">{this.props.symbol}</div>
+          <div className="name">{this.props.name}</div>
+        </div>
+        {this.state.showModal && (
+          <Infobox
+            name={this.props.name}
+            number={this.props.number}
+            properties={this.props.properties}
+            group={this.props.group}
+            weight={this.props.weight}
+            setShowModal={this.setShowModal}
+          />
+        )}
+      </>
     );
   }
 }
