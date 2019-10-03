@@ -12,7 +12,9 @@ function App() {
     </div>
   );
 }
-//the connection to the database is set up
+/**
+ * the connection to the database is set up
+ */
 var firebaseConfig = {
   apiKey: "AIzaSyCn1FfRT6qVBWwkmVj6L-R351WSFX0sq6g",
   authDomain: "periodictable-af684.firebaseapp.com",
@@ -23,7 +25,10 @@ var firebaseConfig = {
   appId: "1:821428636191:web:11908fe1afd384429b632a",
   measurementId: "G-2Y1BN0FZXG"
 };
-// Initialize Firebase
+/**
+ * Initializing firebase
+ * @param firebaseConfig passes on the data like the apiKey
+ */
 firebase.initializeApp(firebaseConfig);
 console.log(firebase);
 

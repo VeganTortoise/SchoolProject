@@ -3,11 +3,22 @@ import Element from "./Element";
 import "./PeriodicTable.css";
 import firebase from "firebase";
 
+/**
+ * The Periodic Table creates and consists of all the Elements
+ */
 export class PeriodicTable extends Component {
+  /**
+   *An array is created as state which gets filled later on
+   */
   state = {
     elements: []
   };
-
+  /**
+   *reads in the database and sets the data <br>
+   *Makes sure the database is read before it continues with the code
+   *Otherwise the Array can't return the values when needed
+   *@param tmp used for storing the data
+   */
   componentDidMount() {
     let database = firebase.firestore();
 
@@ -17,17 +28,25 @@ export class PeriodicTable extends Component {
       .orderBy("id")
       .get()
       .then(snapshot => {
+        /**
+         * @param tmp Used for storing the snapshots before adding to the database
+         */
         const tmp = snapshot.docs.map(doc => doc.data());
         this.setState({ elements: tmp });
       });
   }
 
-  // The periodic table is being rendered
+  /**
+   * runs through a loop to create all the elements
+   * @state contains the element array
+   * @param elements contains data passed as props to Element
+   * @return creates the Periodic Table
+   */
   render() {
     return (
       <div className="PeriodicTable">
         {this.state.elements.map((e, i) => (
-          //the Elements are filled with the values form the database
+          /** */
           <div className={`element-${i}`}>
             <Element
               number={i + 1}
