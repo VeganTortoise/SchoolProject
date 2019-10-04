@@ -20,6 +20,10 @@ export class Element extends React.Component {
     }));
   };
 
+  /**
+   * The color of the Element is chosen by its properties
+   * @author Punzenberger Felix
+   */
   render() {
     let color;
     switch (this.props.properties) {

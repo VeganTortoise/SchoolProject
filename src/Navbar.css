@@ -1,0 +1,18 @@
+.Navbar {
+  background-color: aqua;
+  margin: 2px;
+  align-content: center;
+  border-radius: 100px;
+}
+
+.SwitchList {
+  padding: 5px;
+  list-style-type: none;
+  display: grid-inline;
+}
+
+.SwitchItem {
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  display: inline;
+}

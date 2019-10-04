@@ -4,6 +4,9 @@
   grid-template-columns: repeat(17, auto) 1fr;
   grid-template-rows: repeat(10);
   grid-gap: 2px;
+  background-color: whitesmoke;
+  margin: 1%;
+  border-radius: 50px;
 }
 
 .element-1 {

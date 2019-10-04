@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import firebase from "firebase";
 import Element from "./Element";
+import Navbar from "./Navbar";
 import { Spin } from "antd";
 import "./PeriodicTable.css";
 
@@ -10,15 +11,19 @@ import "./PeriodicTable.css";
 export class PeriodicTable extends Component {
   /**
    *An array is created as state which gets filled later on
+   * @author Punzenberger Felix
    */
   state = {
+    /**
+     *contains data passed as props to Element
+     */
     elements: []
   };
   /**
    *reads in the database and sets the data <br>
    *Makes sure the database is read before it continues with the code
    *Otherwise the Array can't return the values when needed
-   *@param tmp used for storing the data
+   *@author Punzenberger Felix
    */
   componentDidMount() {
     let database = firebase.firestore();
@@ -40,28 +45,30 @@ export class PeriodicTable extends Component {
   /**
    * runs through a loop to create all the elements
    * @state contains the element array
-   * @param elements contains data passed as props to Element
-   * @return creates the Periodic Table
+   * @return creates the Periodic Table with all its elements
    */
   render() {
     return this.state.elements.length === 0 ? (
       <Spin size="large" />
     ) : (
-      <div className="PeriodicTable">
-        {this.state.elements.map((e, i) => (
-          /** */
-          <div className={`element-${i}`}>
-            <Element
-              number={i + 1}
-              symbol={this.state.elements[i].symbol}
-              name={this.state.elements[i].name}
-              properties={this.state.elements[i].properties}
-              group={this.state.elements[i].group}
-              weight={this.state.elements[i].weight}
-            />
-          </div>
-        ))}
-      </div>
+      <>
+        <Navbar />
+        <div className="PeriodicTable">
+          {this.state.elements.map((e, i) => (
+            /** */
+            <div className={`element-${i}`}>
+              <Element
+                number={i + 1}
+                symbol={this.state.elements[i].symbol}
+                name={this.state.elements[i].name}
+                properties={this.state.elements[i].properties}
+                group={this.state.elements[i].group}
+                weight={this.state.elements[i].weight}
+              />
+            </div>
+          ))}
+        </div>
+      </>
     );
   }
 }

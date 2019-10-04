@@ -4,6 +4,9 @@ import firebase from "firebase";
 
 import "./App.css";
 
+/**
+ * The App is the overall container of the web App which builds the PeriodicTable Component
+ */
 function App() {
   return (
     <div className="App">
@@ -13,7 +16,8 @@ function App() {
   );
 }
 /**
- * the connection to the database is set up
+ * the configuration for the database is saved in here
+ * for example the apiKey and the databaseURL
  */
 var firebaseConfig = {
   apiKey: "AIzaSyCn1FfRT6qVBWwkmVj6L-R351WSFX0sq6g",
@@ -27,6 +31,7 @@ var firebaseConfig = {
 };
 /**
  * Initializing firebase
+ * @param firebase is imported from the firebase package
  * @param firebaseConfig passes on the data like the apiKey
  */
 firebase.initializeApp(firebaseConfig);
