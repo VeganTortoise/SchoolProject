@@ -5,6 +5,14 @@
   border-radius: 100px;
 }
 
+Switch {
+  margin: 0.5vw;
+}
+
+.NumberSwitch {
+  margin: 0 1rem !important;
+}
+
 .SwitchList {
   padding: 5px;
   list-style-type: none;

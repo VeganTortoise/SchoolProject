@@ -15,7 +15,8 @@ export class Infobox extends Component {
   };
 
   handleOk = () => {
-    this.setState({ visible: false });
+    // this.setState({ visible: false });
+    this.props.setShowModal();
   };
 
   render() {
@@ -37,19 +38,19 @@ export class Infobox extends Component {
             </Button>
           ]}
         >
-          <div ClassName="TableNumber">
+          <div className="TableNumber">
             <strong> Element number: </strong>
             {this.props.number}
           </div>
-          <div ClassName="ElementGroupName">
+          <div className="ElementGroupName">
             <strong>Element group name: </strong>
             {this.props.properties}
           </div>
-          <div ClassName="ElementGroupNumber">
+          <div className="ElementGroupNumber">
             <strong>Element group number: </strong>
             {this.props.group}
           </div>
-          <div ClassName="ElementWeight">
+          <div className="ElementWeight">
             <strong>Atomic weight: </strong>
             {this.props.weight} amu
           </div>

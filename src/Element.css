@@ -18,12 +18,11 @@
   width: 5vw;
   height: 5vw;
 
-  padding: 2px;
-  border: 1px solid #333333;
+  padding: 0.2vw;
+  border: 0.1vw solid #333333;
   border-collapse: collapse;
   overflow: hidden;
-  font-size: 35pt;
 }
 .Element:hover {
-  border: 3px solid #300003;
+  border: 0.2vw solid #300003;
 }

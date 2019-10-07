@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useReducer } from "react";
+import { Context, initialState, reducer } from "./store";
 import PeriodicTable from "./PeriodicTable";
 import firebase from "firebase";
 
@@ -8,11 +9,15 @@ import "./App.css";
  * The App is the overall container of the web App which builds the PeriodicTable Component
  */
 function App() {
+  const [store, dispatch] = useReducer(reducer, initialState);
+
   return (
-    <div className="App">
-      <h1>Periodic Table of Elements</h1>
-      <PeriodicTable />
-    </div>
+    <Context.Provider value={{ store, dispatch }}>
+      <div className="App">
+        <h1>Periodic Table of Elements</h1>
+        <PeriodicTable />
+      </div>
+    </Context.Provider>
   );
 }
 /**
