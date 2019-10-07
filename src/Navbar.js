@@ -11,10 +11,10 @@ export class Navbar extends Component {
             Symbol
             <Switch />
           </li>
-          <li className="SwitchItem">
+          {/* <li className="SwitchItem">
             Name
             <Switch />
-          </li>
+          </li> */}
           <li className="SwitchItem">
             Number
             <Switch />
