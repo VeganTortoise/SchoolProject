@@ -1,11 +1,18 @@
 .PeriodicTable {
+  size: 100% 100%;
+
   padding: 2vw;
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
   grid-template-rows: repeat(10);
   grid-gap: 2px;
   background-color: whitesmoke;
-  margin: 1%;
+  margin: 1vw;
+}
+
+.elementExample {
+  grid-column: 4 / span 5 !important;
+  grid-row: 1 / span 2 !important;
 }
 
 .element-1 {

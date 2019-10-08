@@ -4,6 +4,7 @@ export const initialState = {
   showName: true,
   showNumber: true,
   showWeight: false
+  // isHovered: false
 };
 
 export const reducer = (state, action) => {
@@ -16,6 +17,8 @@ export const reducer = (state, action) => {
       return { ...state, showNumber: !state.showNumber };
     case "setShowWeight":
       return { ...state, showWeight: !state.showWeight };
+    // case "setIsHovered":
+    //   return { ...state, isHovered: !state.isHovered };
 
     default:
       return state;

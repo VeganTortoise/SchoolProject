@@ -4,7 +4,9 @@ import "./Element.css";
 import Infobox from "./Infobox.js";
 
 /**
- * One Element of the Periodic Table
+ * @author Punzenberger
+ * @param {*} props Props are the Properties given to the Element like Name Symbol and so on
+ * One Element of the Periodic Table is created
  */
 function Element(props) {
   const { store } = useContext(Context);
@@ -62,11 +64,11 @@ function Element(props) {
         onClick={setShowModalAction}
       >
         <div className="upperLine">
-          <div className="weight">{store.showWeight ? props.weight : ""}</div>
-          <div className="number">{store.showNumber ? props.number : ""}</div>
+          <div className="weight">{store.showWeight ? props.weight : " "}</div>
+          <div className="number">{store.showNumber ? props.number : " "}</div>
         </div>
-        <div className="symbol">{store.showSymbol ? props.symbol : ""}</div>
-        <div className="name">{store.showName ? props.name : ""}</div>
+        <div className="symbol">{store.showSymbol ? props.symbol : " "}</div>
+        <div className="name">{store.showName ? props.name : " "}</div>
       </div>
       {showModal && (
         <Infobox

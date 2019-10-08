@@ -2,7 +2,6 @@
   background-color: aqua;
   margin: 2px;
   align-content: center;
-  border-radius: 100px;
 }
 
 Switch {
@@ -23,5 +22,6 @@ Switch {
   flex: 1;
   padding: 5px;
   font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
   display: inline;
 }
