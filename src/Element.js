@@ -61,8 +61,10 @@ function Element(props) {
         style={{ backgroundColor: color }}
         onClick={setShowModalAction}
       >
-        <div className="weight">{store.showWeight ? props.weight : ""}</div>
-        <div className="number">{store.showNumber ? props.number : ""}</div>
+        <div className="upperLine">
+          <div className="weight">{store.showWeight ? props.weight : ""}</div>
+          <div className="number">{store.showNumber ? props.number : ""}</div>
+        </div>
         <div className="symbol">{store.showSymbol ? props.symbol : ""}</div>
         <div className="name">{store.showName ? props.name : ""}</div>
       </div>
