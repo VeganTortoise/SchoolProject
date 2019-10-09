@@ -2,6 +2,7 @@ import React, { useReducer } from "react";
 import { Context, initialState, reducer } from "./store";
 import PeriodicTable from "./PeriodicTable";
 import firebase from "firebase";
+import EasterEgg from "./EasterEgg";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <div className="App">
         <h1>Periodic Table of Elements</h1>
         <PeriodicTable />
+        <EasterEgg />
       </div>
     </Context.Provider>
   );

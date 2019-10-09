@@ -3,7 +3,8 @@ export const initialState = {
   showSymbol: true,
   showName: true,
   showNumber: true,
-  showWeight: false
+  showWeight: false,
+  easteregg: false
   // isHovered: false
 };
 
@@ -17,6 +18,8 @@ export const reducer = (state, action) => {
       return { ...state, showNumber: !state.showNumber };
     case "setShowWeight":
       return { ...state, showWeight: !state.showWeight };
+    case "setEasterEgg":
+      return { ...state, easteregg: !state.easteregg };
     // case "setIsHovered":
     //   return { ...state, isHovered: !state.isHovered };
 

@@ -13,7 +13,9 @@ function Element(props) {
   const [showModal, setShowModal] = useState(false);
 
   const setShowModalAction = () => {
-    setShowModal(!showModal);
+    if (!store.easteregg) {
+      setShowModal(!showModal);
+    }
   };
 
   /**
