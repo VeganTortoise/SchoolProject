@@ -46,12 +46,18 @@ export class Infobox extends Component {
               {this.props.number}
             </div>
             <div className="ElementGroupName">
-              <strong>Element group name: </strong>
+              <strong>Element properties: </strong>
               {this.props.properties}
             </div>
             <div className="ElementGroupNumber">
-              <strong>Element group number: </strong>
-              {this.props.group}
+              {this.props.group !== 0 ? (
+                <div>
+                  <strong>Element group number: </strong>
+                  {this.props.group}
+                </div>
+              ) : (
+                ""
+              )}
             </div>
             <div className="ElementWeight">
               <strong>Atomic weight: </strong>
@@ -61,6 +67,8 @@ export class Infobox extends Component {
               number={this.props.number}
               symbol={this.props.symbol}
               name={this.props.name}
+              properties={this.props.properties}
+              group={this.props.group}
               weight={this.props.weight}
             />
           </Modal>
