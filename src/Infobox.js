@@ -30,6 +30,7 @@ export class Infobox extends Component {
             visible={visible}
             title={this.props.name}
             onOk={this.handleOk}
+            onCancel={this.handleOk}
             footer={[
               <Button
                 key="submit"
