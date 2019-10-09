@@ -10,6 +10,12 @@
   margin: 1vw;
 }
 
+@media screen and (max-width: 800px) {
+  .PeriodicTable {
+    margin: 0vw;
+  }
+}
+
 .elementExample {
   grid-column: 4 / span 5 !important;
   grid-row: 1 / span 2 !important;
