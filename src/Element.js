@@ -72,6 +72,7 @@ function Element(props) {
       </div>
       {showModal && (
         <Infobox
+          symbol={props.symbol}
           name={props.name}
           number={props.number}
           properties={props.properties}
