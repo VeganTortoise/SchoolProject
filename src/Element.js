@@ -12,6 +12,9 @@ function Element(props) {
   const { store, dispatch } = useContext(Context);
   const [showModal, setShowModal] = useState(false);
 
+  /**
+   * @author Punzenberger Felix
+   */
   const setShowModalAction = () => {
     if (!store.easteregg) {
       setShowModal(!showModal);
