@@ -1,6 +1,7 @@
 .PeriodicTable {
   size: 100% 100%;
-
+  border-style: solid;
+  border-width: 0.1vw;
   padding: 2vw;
   display: grid;
   grid-template-columns: repeat(17, auto);
@@ -17,8 +18,9 @@
 }
 
 .elementExample {
-  grid-column: 4 / span 5 !important;
-  grid-row: 1 / span 2 !important;
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 3;
+  size: 5vw 5vw !important;
 }
 
 .element-1 {

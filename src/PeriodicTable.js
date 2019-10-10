@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import firebase from "firebase";
 import Element from "./Element";
 import Navbar from "./Navbar";
-//import BigElement from "./BigElement";
+import BigElement from "./BigElement";
 import { Spin } from "antd";
 import "./PeriodicTable.css";
 

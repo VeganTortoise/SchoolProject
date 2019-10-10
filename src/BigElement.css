@@ -5,28 +5,28 @@
 
 .weightBig {
   text-align: right;
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
 .numberBig {
   flex-basis: 100%;
   text-align: right;
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
 .nameBig {
   text-align: center;
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
 .symbolBig {
   text-align: center;
-  font-size: 6vw;
+  font-size: 3vw;
 }
 
 .BigElement {
-  width: 20vw;
-  height: 20vw;
+  width: 10vw;
+  height: 10vw;
 
   padding: 0.2vw;
   border: 0.1vw solid #333333;
