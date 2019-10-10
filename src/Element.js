@@ -9,12 +9,18 @@ import Infobox from "./Infobox.js";
  * One Element of the Periodic Table is created
  */
 function Element(props) {
-  const { store } = useContext(Context);
+  const { store, dispatch } = useContext(Context);
   const [showModal, setShowModal] = useState(false);
 
   const setShowModalAction = () => {
     if (!store.easteregg) {
       setShowModal(!showModal);
+    }
+    if (store.easteregg) {
+      dispatch({
+        type: "setEasterString",
+        value: props.symbol
+      });
     }
   };
 

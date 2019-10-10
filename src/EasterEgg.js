@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Konami from "react-konami-code";
-import Confetti from "react-confetti";
 import { Context } from "./store.js";
+import Minigame from "./Minigame.js";
 
 function EasterEgg() {
   const { store, dispatch } = useContext(Context);
@@ -15,7 +15,7 @@ function EasterEgg() {
   return (
     <div>
       <Konami action={easterEggToggle} />
-      {store.easteregg && <Confetti />}
+      {store.easteregg && <Minigame />}
     </div>
   );
 }

@@ -4,6 +4,7 @@ export const initialState = {
   showName: true,
   showNumber: true,
   showWeight: false,
+  easterString: "",
   easteregg: false
   // isHovered: false
 };
@@ -18,6 +19,10 @@ export const reducer = (state, action) => {
       return { ...state, showNumber: !state.showNumber };
     case "setShowWeight":
       return { ...state, showWeight: !state.showWeight };
+    case "setEasterString":
+      return { ...state, easterString: state.easterString + action.value };
+    case "ResetEasterString":
+      return { ...state, easterString: "" };
     case "setEasterEgg":
       return { ...state, easteregg: !state.easteregg };
     // case "setIsHovered":
