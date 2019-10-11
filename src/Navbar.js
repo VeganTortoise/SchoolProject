@@ -3,6 +3,10 @@ import { Context } from "./store.js";
 import "./Navbar.css";
 import { Switch } from "antd";
 
+/**
+ * @author Hagn Andreas
+ * @return The Navbar is created with different Switches. The Switches are set to either be default activated or deactivated. By Toggling them the view of an Element is changed.
+ */
 function Navbar() {
   const { dispatch } = useContext(Context);
   const switchToggle = name => {

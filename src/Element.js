@@ -4,9 +4,10 @@ import "./Element.css";
 import Infobox from "./Infobox.js";
 
 /**
+ * One Element of the Periodic Table is created
  * @author Punzenberger
  * @param {*} props Props are the Properties given to the Element like Name Symbol and so on
- * One Element of the Periodic Table is created
+ * @returns An element with it's different parts is created. The props are for filling the Box, the Modal is for showing the data in a Dialog.
  */
 function Element(props) {
   const { store } = useContext(Context);

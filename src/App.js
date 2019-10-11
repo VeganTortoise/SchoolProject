@@ -8,6 +8,9 @@ import "./App.css";
 
 /**
  * The App is the overall container of the web App which builds the PeriodicTable Component
+ * It is a function based component so it doesn't have a render function anymore
+ * @author Punzenberger Felix
+ * @return Provides the PeriodicTable Component and the EasterEgg
  */
 function App() {
   const [store, dispatch] = useReducer(reducer, initialState);
@@ -36,11 +39,7 @@ var firebaseConfig = {
   appId: "1:821428636191:web:11908fe1afd384429b632a",
   measurementId: "G-2Y1BN0FZXG"
 };
-/**
- * Initializing firebase
- * @param firebase is imported from the firebase package
- * @param firebaseConfig passes on the data like the apiKey
- */
+
 firebase.initializeApp(firebaseConfig);
 console.log(firebase);
 

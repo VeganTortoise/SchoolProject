@@ -1,11 +1,8 @@
 .Navbar {
+  border-top: solid 0.1vw;
+  border-bottom: solid 0.1vw;
   background-color: aqua;
-  margin: 2px;
   align-content: center;
-}
-
-Switch {
-  margin: 0.5vw;
 }
 
 .NumberSwitch {
