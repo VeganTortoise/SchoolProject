@@ -9,6 +9,14 @@ export const initialState = {
   // isHovered: false
 };
 
+/**
+ * sets the global states for manipulating the view
+ * @author Punzenberger Felix
+ * @author Hagn Andreas
+ * @param {*} state the state is a global variable for changing certain condition (e.g. what is shown in an element)
+ * @param {*} action the type of the action decides which state to change
+ * @return the new changed state is returned
+ */
 export const reducer = (state, action) => {
   switch (action.type) {
     case "setShowSymbol":

@@ -62,7 +62,7 @@ function Minigame() {
       {store.easterString.toUpperCase() === "RASPUTIN" && (
         <YouTube videoId={"oTI5XL-k_1I"} opts={opts} />
       )}
-      {store.easterString.toUpperCase() === "SCOOTER" && (
+      {store.easterString.toUpperCase() === "SCOOTA" && (
         <YouTube videoId={"-dn7FtPVvoA"} opts={opts} />
       )}
       {store.easterString.toUpperCase() === "SPOOKY" && (

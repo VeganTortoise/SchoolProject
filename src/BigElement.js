@@ -1,6 +1,13 @@
 import React from "react";
 import "./BigElement.css";
 
+/**
+ * A BigElement is created. The BigElement component is used for showing the data in the Modals.
+ * The BigElement is called in the Infobox for displaying the Data.
+ * @author Hagn Andreas
+ * @param {*} props are the same as for the small Elements.
+ * @return creates the BigElement with the given props
+ */
 function BigElement(props) {
   let color;
   switch (props.properties) {

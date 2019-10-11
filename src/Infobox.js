@@ -4,6 +4,12 @@ import BigElement from "./BigElement";
 import "./Infobox.css";
 import "./BigElement.css";
 
+/**
+ * The Infobox is a class-based component for adding the Information in the Modal Dialog.
+ * @author Punzenberger Felix
+ * @author Andreas Hagn
+ * @render The modal is created in here with the data of the clicked on Element. It's buttons handle the clicks for closing.
+ */
 export class Infobox extends Component {
   state = {
     loading: false,

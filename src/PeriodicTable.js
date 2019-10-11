@@ -9,16 +9,12 @@ import "./PeriodicTable.css";
 
 /**
  * The Periodic Table creates and consists of all the Elements
+ * @author Hagn Andreas
+ * @author Punzenberger Felix
+ * @return If the Table isn't loaded yet it returns a Spinner. For loading it runs through a loop to render all the Elements. The data is taken from the array created from the firebase data.
  */
 export class PeriodicTable extends Component {
-  /**
-   *An array is created as state which gets filled later on
-   * @author Punzenberger Felix
-   */
   state = {
-    /**
-     *contains data passed as props to Element
-     */
     elements: []
   };
   /**
@@ -30,25 +26,16 @@ export class PeriodicTable extends Component {
   componentDidMount() {
     let database = firebase.firestore();
 
-    // the data from the database is being read and filled in an array
     database
       .collection("PeriodicTableOfElements")
       .orderBy("id")
       .get()
       .then(snapshot => {
-        /**
-         * @param tmp Used for storing the snapshots before adding to the database
-         */
         const tmp = snapshot.docs.map(doc => doc.data());
         this.setState({ elements: tmp });
       });
   }
 
-  /**
-   * runs through a loop to create all the elements
-   * @state contains the element array
-   * @return creates the Periodic Table with all its elements
-   */
   render() {
     return this.state.elements.length === 0 ? (
       <Spin size="large" />
