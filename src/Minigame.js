@@ -27,7 +27,7 @@ function Minigame() {
   return (
     <div className="Minigame">
       {store.easterString.toUpperCase() === "HC" && (
-        <YouTube videoId={"8aWgT7dlAY0"} opts={opts} />
+        <YouTube videoId={"MXXRHpVed3M"} opts={opts} />
       )}
       {store.easterString.toUpperCase() === "SNOOPDOG" && (
         <YouTube videoId={"_CL6n0FJZpk"} opts={optsnoop} />
@@ -66,7 +66,7 @@ function Minigame() {
         <YouTube videoId={"-dn7FtPVvoA"} opts={opts} />
       )}
       {store.easterString.toUpperCase() === "SPOOKY" && (
-        <YouTube videoId={"XTgFtxHhCQ0"} opts={opts} />
+        <YouTube videoId={"WTWyosdkx44"} opts={opts} />
       )}
     </div>
   );
