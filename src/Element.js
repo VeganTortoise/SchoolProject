@@ -10,7 +10,7 @@ import Infobox from "./Infobox.js";
  * @returns An element with it's different parts is created. The props are for filling the Box, the Modal is for showing the data in a Dialog.
  */
 function Element(props) {
-  const { store } = useContext(Context);
+  const { store, dispatch } = useContext(Context);
   const [showModal, setShowModal] = useState(false);
 
   /**
@@ -19,6 +19,12 @@ function Element(props) {
   const setShowModalAction = () => {
     if (!store.easteregg) {
       setShowModal(!showModal);
+    }
+    if (store.easteregg) {
+      dispatch({
+        type: "setEasterString",
+        value: props.symbol
+      });
     }
   };
 

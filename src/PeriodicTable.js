@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import BigElement from "./BigElement";
 import { Spin } from "antd";
 import "./PeriodicTable.css";
+//import Minigame from "./Minigame";
 
 /**
  * The Periodic Table creates and consists of all the Elements
