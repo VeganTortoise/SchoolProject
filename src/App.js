@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <h1>
           {store.easteregg
-            ? "Periodic Table of Musicians"
+            ? "Periodic Table of Memes"
             : "Periodic Table of Elements"}
         </h1>
         <PeriodicTable />

@@ -119,6 +119,9 @@ function Minigame() {
       {store.easterString.toUpperCase() === "PIRATE" && (
         <YouTube videoId={"SAp0xO-LwFs"} opts={opts} />
       )}
+      {store.easterString.toUpperCase() === "ONE" && (
+        <YouTube videoId={"WM8bTdBs-cw"} opts={opts} />
+      )}
     </div>
   );
 }
