@@ -3,6 +3,10 @@ import { Context } from "./store.js";
 import YouTube from "react-youtube";
 import "./Minigame.css";
 
+/**
+ * The Minigame is created and loads videos if a certain combination is put in.
+ * @author Punzenberger Felix
+ */
 function Minigame() {
   const { store } = useContext(Context);
 
