@@ -84,7 +84,7 @@ function Minigame() {
         <YouTube videoId={"PIetiD0G6vQ"} opts={opts} />
       )}
       {store.easterString.toUpperCase() === "SENPAI" && (
-        <YouTube videoId={"PIetiD0G6vQ"} opts={opts} />
+        <YouTube videoId={"ZZ5LpwO-An4"} opts={opts} />
       )}
       {store.easterString.toUpperCase() === "NEIN" && (
         <YouTube videoId={"22m5eU6uxeQ"} opts={opts} />
@@ -121,6 +121,39 @@ function Minigame() {
       )}
       {store.easterString.toUpperCase() === "ONE" && (
         <YouTube videoId={"WM8bTdBs-cw"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "SOOS" && (
+        <YouTube videoId={"XiuRv8RgaFk"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "POOP" && (
+        <YouTube videoId={"ykwqXuMPsoc"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "SHREK" && (
+        <YouTube videoId={"Uo2SNtFofWI"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "COOKIES" && (
+        <YouTube videoId={"nhjOOEgqzjo"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "FUN" && (
+        <YouTube videoId={"g_y15ozNchY"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "FUCKOFF" && (
+        <YouTube videoId={"OLpeX4RRo28"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "COFFE" && (
+        <YouTube videoId={"Cqd-_fHdTyA"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "FREND" && (
+        <YouTube videoId={"99Op1TaXmCw"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "BELAIR" && (
+        <YouTube videoId={"1nCqRmx3Dnw"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "COVFEFE" && (
+        <YouTube videoId={"GioBjltdUnU"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "LUCIFER" && (
+        <YouTube videoId={"J7yMzfplUco"} opts={opts} />
       )}
     </div>
   );
