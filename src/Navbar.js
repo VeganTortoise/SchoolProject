@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Context } from "./store.js";
 import "./Navbar.css";
-import { Switch, Divider, Button } from "antd";
+import { Switch, Button } from "antd";
 
 /**
  * @author Hagn Andreas
