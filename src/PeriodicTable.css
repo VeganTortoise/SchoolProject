@@ -7,7 +7,6 @@
   grid-template-columns: repeat(17, auto);
   grid-template-rows: repeat(10);
   grid-gap: 2px;
-  background-color: whitesmoke;
   margin: 1vw;
 }
 
