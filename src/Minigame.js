@@ -159,6 +159,42 @@ function Minigame() {
       {store.easterString.toUpperCase() === "LUCIFER" && (
         <YouTube videoId={"J7yMzfplUco"} opts={opts} />
       )}
+      {store.easterString.toUpperCase() === "GANACCI" && (
+        <YouTube videoId={"NkRkuI0ZgX0"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "CHOP" && (
+        <YouTube videoId={"CSvFpBOe8eY"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "SONNE" && (
+        <YouTube videoId={"StZcUAPRRac"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "MOND" && (
+        <YouTube videoId={"KaOC9danxNo"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "MOON" && (
+        <YouTube videoId={"TgqiSBxvdws"} opts={optsyag} />
+      )}
+      {store.easterString.toUpperCase() === "ALCOHOLIC" && (
+        <YouTube videoId={"3PciBRQXoFg"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "ALCOHOLIC" && (
+        <YouTube videoId={"3PciBRQXoFg"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "AMERICA" && (
+        <YouTube videoId={"U1mlCPMYtPk"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "AMISH" && (
+        <YouTube videoId={"lOfZLb33uCg"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "BEER" && (
+        <YouTube videoId={"zuDtACzKGRs"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "BEAR" && (
+        <YouTube videoId={"9ogQ0uge06o"} opts={opts} />
+      )}
+      {store.easterString.toUpperCase() === "BASS" && (
+        <YouTube videoId={"D1gl46hh3sQ"} opts={optsyag} />
+      )}
     </div>
   );
 }
