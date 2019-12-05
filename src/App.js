@@ -7,6 +7,10 @@ import "./App.css";
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  /**
+   * we built in a minigame which can be accessed by entering the Konami code
+   */
   const easterEgg = () => {
     alert("it wooooooooooorks");
     dispatch({
