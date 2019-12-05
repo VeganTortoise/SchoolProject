@@ -195,6 +195,9 @@ function Minigame() {
       {store.easterString.toUpperCase() === "BASS" && (
         <YouTube videoId={"D1gl46hh3sQ"} opts={optsyag} />
       )}
+      {store.easterString.toUpperCase() === "BITCH" && (
+        <YouTube videoId={"smqhSl0u_sI"} opts={opts} />
+      )}
     </div>
   );
 }
