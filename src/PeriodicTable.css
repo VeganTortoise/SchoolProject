@@ -1,11 +1,29 @@
 .PeriodicTable {
+  size: 100% 100%;
+  border-style: solid;
+  border-width: 0.1vw;
+  padding: 2vw;
   display: grid;
-  grid-template-columns: repeat(17, auto) 1fr;
+  grid-template-columns: repeat(17, auto);
   grid-template-rows: repeat(10);
+  grid-gap: 2px;
+  margin: 1vw;
+}
+
+@media screen and (max-width: 800px) {
+  .PeriodicTable {
+    margin: 0vw;
+  }
+}
+
+.elementExample {
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 3;
+  size: 5vw 5vw !important;
 }
 
 .element-1 {
-  grid-column-start: -2;
+  grid-column-start: 18;
 }
 .element-4,
 .element-12 {

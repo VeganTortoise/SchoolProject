@@ -3,18 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.23.5",
+    "antd": "^3.23.4",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "firebase": "^7.0.0",
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
+    "jsdoc": "^3.6.3",
+    "react": "^16.9.0",
+    "react-confetti": "^4.0.1",
+    "react-dom": "^16.9.0",
+    "react-konami-code": "^1.4.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.1.1"
+    "react-scripts": "3.1.1",
+    "react-youtube": "^7.9.0",
+    "storybook": "^5.1.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook",
+    "docs": "./node_modules/.bin/jsdoc -c jsdoc.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.1"
   }
 }

@@ -1,0 +1,23 @@
+.Navbar {
+  border-top: solid 0.1vw;
+  border-bottom: solid 0.1vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  align-content: center;
+}
+
+.NumberSwitch {
+  margin: 0 1rem !important;
+}
+
+.SwitchList {
+  padding-top: 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+.SwitchItem {
+  flex: 1;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  display: inline;
+}
