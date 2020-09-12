@@ -47,16 +47,16 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 console.log(firebase);
 
-var database = firebase.firestore();
-database
-  .collection("PeriodicTableOfElements")
-  .orderBy("id")
-  .get()
-  .then(snapshot => {
-    snapshot.docs.forEach(doc => {
-      typeof doc;
-      console.log(doc.data());
-    });
-  });
+// var database = firebase.firestore();
+// database
+//   .collection("PeriodicTableOfElements")
+//   .orderBy("id")
+//   .get()
+//   .then(snapshot => {
+//     snapshot.docs.forEach(doc => {
+//       typeof doc;
+//       console.log(doc.data());
+//     });
+//   });
 
 export default App;
