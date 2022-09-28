@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 800px) {
   .PeriodicTable {
-    margin: 0vw;
+    margin: 0;
+    padding: 0
   }
 }
 
