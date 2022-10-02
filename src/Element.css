@@ -17,6 +17,8 @@
 .name {
   text-align: center;
   font-size: 0.75vw;
+  position: absolute;
+  bottom: 0;
 }
 
 .symbol {
@@ -25,6 +27,7 @@
 }
 
 .Element {
+  position: relative;
   cursor: help;
   width: 5vw;
   height: 5vw;
